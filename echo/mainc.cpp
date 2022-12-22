@@ -37,7 +37,7 @@ if (rc == -1) {
 }
 else {
     std::cout << "We are connect!\n";
-    char msg[50] = "41662";
+    char msg[50] = "Message client!";
     send(s, msg, sizeof(msg), 0);
     std::cout << "Message: " << '"' << msg << '"' << " was sent!\n";
     char returned_msg[50];
